@@ -40,7 +40,7 @@ class IrisController:
 
     @router.get("/info")
     def model_info(self):
-        """Return model information, version, how to call"""
+        """Return model information, version, how to call."""
         return {"name": self.model.name, "version": self.model.version}
 
     @router.get("/health")
